@@ -2,12 +2,12 @@
 
 texto = input(">")
 
-seguuirChatenado = True
+seguirChatenado = True
 
-while seguuirChatenado:
+while seguirChatenado:
     texto = input(">")
     if texto == 'salir':
-        seguuirChatenado = False
+        seguirChatenado = False
     texto = texto.replace(':)', '😊')
     texto = texto.replace(':(', '😢')
     texto = texto.replace(':D', '😀')
